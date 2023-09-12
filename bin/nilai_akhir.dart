@@ -22,7 +22,7 @@ void main() {
     stdout.write('Masukkan Nilai UAS    : ');
   double uas = double.parse(stdin.readLineSync()!);
   
-  // Menggunakan rumus konversi Fahrenheit ke Celsius, Kelvin dan Reaumur
+  // Menggunakan rumus untuk menghitung nilai akhir
   double nilai_akhir = kehadiran*0.05 + tugas*0.25 + kuis*0.15 + uts*0.25 + uas *0.30;
 
   // Menampilkan hasil konversi
